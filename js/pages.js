@@ -39,6 +39,12 @@ let pages = [
             desc:"Site construído especialmente para um servidor de discord, para guardar os jornais e imagens do grupo.",
             link:"https://lestic.site/fmlleus/"
           },
+        ]
+      },
+      {
+        title:'Pessoais',
+        color:'rgb(45, 61, 204)',
+        links:[
           {
             name:"Site Principal",
             desc:"Feito para ter tudo o que eu podia imaginar! Fóruns e.. Calculadoras!",
@@ -46,7 +52,8 @@ let pages = [
           },
           {
             name:"Meleus Links",
-            desc:"Construído como uma necessidade, "
+            desc:"Construído como uma necessidade, pode abrigar e organizar vários links em seções",
+            link:"./?error=ml04"
           }
         ]
       }
