@@ -22,6 +22,37 @@
 
 let pages = [
   {
+    name:"Sites Meleus",
+    menu:true,
+    sections:[
+      {
+        title:'Não Pessoais',
+        color:'rgb(179, 12, 12)',
+        links:[
+          {
+            name:"Noxaris",
+            desc:"Site feito para um bot de discord, construído em React.js",
+            link:"https://noxaris.netlify.app"
+          },
+          {
+            name:"FMLLeus",
+            desc:"Site construído especialmente para um servidor de discord, para guardar os jornais e imagens do grupo.",
+            link:"https://lestic.site/fmlleus/"
+          },
+          {
+            name:"Site Principal",
+            desc:"Feito para ter tudo o que eu podia imaginar! Fóruns e.. Calculadoras!",
+            link:"https://lestic.site/site/"
+          },
+          {
+            name:"Meleus Links",
+            desc:"Construído como uma necessidade, "
+          }
+        ]
+      }
+    ]
+  },
+  {
     name:"PC Edu",
     menu:true,
     sections:[
