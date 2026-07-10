@@ -1,0 +1,41 @@
+.ErrorBox{
+  position:absolute;
+  background-color:rgba(255, 255, 255, 0.2);
+  width:75vw;
+  min-height:15vh;
+  padding:15px;
+  border-radius:35px;
+  margin-top:75vh;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  max-width:460px;
+}
+.ErrorBox hr{
+  width:85%;
+  background-color:var(--errorLine);
+  box-shadow:0 0 5px 5px color-mix(in srgb, var(--errorLine) 45%, transparent)
+}
+
+.ErrorTitle{
+  color:var(--errorTitle);
+  font-family:'Poppins';
+  font-size:32px;
+  font-weight:700;
+  text-shadow:0 0 15px var(--errorLine);
+}
+
+.ErrorParagraph{
+  color:white;
+  font-family:'Roboto';
+}
+
+.ErrorButton{
+  cursor:pointer;
+  width:100px;
+  margin-top:15px;
+  border-radius:9999px;
+  border:0;
+  text-align:center;
+  
+}

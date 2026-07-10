@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --background:#08060f;
+    --secondbckg:#ffffff54;
+    --title:#dee2ff;
+    --text:#d1d9db;
+    --name:#ffffff;
+    --sectionbck:#ffffff98;
+
+    --errorTitle:rgb(255, 33, 33);
+    --errorLine:rgb(235, 0, 0);
+}
+*{
+    margin:0;
+    padding:0;
+    transition:0.3s;
+}
+button:hover{
+    transform:scale(1.05)
+}
+button:active{
+    transform:scale(0.95)
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-color:var(--background);
+}
+hr{
+    width:85vw;
+    height:2px;
+    background-color:#ffffff70;
+    border:0;
+    margin-bottom:15px;
+    box-shadow:0 0 5px 5px color-mix(in srgb, rgb(255, 235, 235) 5%, transparent)
+}
+main hr{
+    width:85%;
+    background-color:var(--background);
+    box-shadow:0 0 5px 5px color-mix(in srgb, rgb(0,0,0) 15%, transparent)
+}
+main{
+    display:flex;
+    align-items:center;
+    /*height:calc(100vh - 70px);*/
+    padding:12px;
+    border-radius:30px; 
+    flex-direction:column;
+    background-color:var(--secondbckg);
+    min-width:280px;
+    z-index:1;
+}
+.Section{
+    width:90%;
+    background-color:var(--sectionbck);
+    padding:15px;
+    border-radius:27px;
+    margin-top:10px;
+    margin-bottom:10px;
+    z-index:2;
+}
+h1{
+    color:var(--title);
+    height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Poppins';
+    font-weight:700;
+    font-size:48px;
+    user-select:none;
+    text-shadow: 0 0 3px currentColor;
+}
+h2.nomePagina{
+    color:var(--name);
+    font-family:'Poppins';
+    font-weight:500;
+    font-size:32px;
+}
+h3.titleSection{
+    color:var(--background);
+    font-size:26px;
+    font-family:'Open Sans';
+    font-weight:500;
+}
+.Link{
+    padding:7px;
+    margin-bottom:9px;
+    margin-top:7px;
+    background-color:rgb(234, 234, 236);
+    border-radius:15px;
+    min-height:40px;
+    position:relative;
+    z-index:4;
+}
+.linkName{
+    font-family:'Roboto';
+    font-weight:600;
+}
+.linkDesc{
+    font-family:'Roboto';
+    font-weight:400;
+}
+.linkLink{
+    font-family:'Open Sans';
+    font-weight:400;
+    color:blue;
+}
+.paginasBotao{
+    width:70%;
+    height:45px;
+    border-radius:35px;
+    background-color:rgba(255, 255, 255, 0.7);
+    border:0;
+    cursor:pointer;
+    margin-top:7px;
+    margin-bottom:7px;
+}
+.paginasBotao:hover{
+    transform:scale(1.025);
+}
+.paginasBotao:active{
+    transform:scale(0.975);
+}
+.botaoVoltar{
+    margin-top:25px;
+    width:15%;
+    height:25px;
+    border-radius:15px;
+    border:0;
+    min-width:150px;
+    cursor:pointer;
+}
+.BrilhoDoDjabo{
+    position:absolute;
+    content:"";
+    top:50%;
+    left:-5px;
+    height:calc(100% - 10px);
+    border-radius:15px;
+    width:5px;
+    transform:translateY(-50%);
+    z-index:3;
+}
+
+@media(max-width:768px){
+    main{
+        max-width:500px;
+        padding:6px;
+    }
+    h1{
+        font-size:36px;
+        height:56px;
+    }
+    h2.nomePagina{
+        font-size:24px;
+    }
+    .Link p, .Link a{
+        font-size:14px;
+    }
+    h3.titleSection{
+        font-size:21px;
+    }
+}
+
+@keyframes rainbowColor {
+    0%   { color: #ff1744; }
+    5%   { color: #ff3030; }
+    10%  { color: #ff5722; }
+    15%  { color: #ff7b00; }
+    20%  { color: #ff9800; }
+    25%  { color: #ffc400; }
+    30%  { color: #ffea00; }
+    35%  { color: #b6ff00; }
+    40%  { color: #64ff00; }
+    45%  { color: #00e676; }
+    50%  { color: #00ffc8; }
+    55%  { color: #00e5ff; }
+    60%  { color: #00aaff; }
+    65%  { color: #2979ff; }
+    70%  { color: #304ffe; }
+    75%  { color: #651fff; }
+    80%  { color: #9c27ff; }
+    85%  { color: #d500f9; }
+    90%  { color: #ff00aa; }
+    95%  { color: #ff4081; }
+    100% { color: #ff1744; }
+}
+
+/*
+@keyframes rainbowColor {
+    0%   { color: #ff0000; }
+    16%  { color: #ff7f00; }
+    33%  { color: #ffff00; }
+    50%  { color: #00ff00; }
+    66%  { color: #00ffff; }
+    83%  { color: #0000ff; }
+    100% { color: #8b00ff; }
+}
+*/
