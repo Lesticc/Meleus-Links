@@ -74,7 +74,7 @@ const carregarPagina = () => {
         const Desc = document.createElement('p')
         const link = document.createElement('a')
         Nome.innerText = innerElement.name
-
+        Name.append(Nome)
         
         Desc.innerText = innerElement.desc
         link.innerText = 'Clique aqui para acessar o link!'
@@ -98,6 +98,7 @@ const carregarPagina = () => {
           const Price = document.createElement('span')
           Price.innerText = `( ${MoneyFormatter(innerElement.price)} ) `
           Price.style.color = 'rgb(0, 134, 11)'
+          Name.innerHTML = ''
           Name.append(Price, Nome)
           total += innerElement.price
         }
