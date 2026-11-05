@@ -52,6 +52,7 @@ main{
     background-color:var(--secondbckg);
     min-width:280px;
     z-index:1;
+    min-width:45vw;
 }
 .Section{
     width:90%;
