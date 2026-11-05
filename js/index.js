@@ -107,7 +107,7 @@ const carregarPagina = () => {
         lista.append(Link)
       })
 
-      if(element.links.prices){
+      if(element.prices){
         totalPrice.innerText = `Total: ${MoneyFormatter(total)}`
         totalPrice.style.fontFamily = 'Roboto'
         totalPrice.style.fontWeight = '500'

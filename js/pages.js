@@ -21,7 +21,7 @@
 */
 
 let pages = [
-  {
+  /*{
     name:"Sites Meleus",
     menu:true,
     sections:[
@@ -58,7 +58,7 @@ let pages = [
         ]
       }
     ]
-  },
+  },*/
   {
     name:"PC Edu",
     menu:true,
@@ -69,44 +69,49 @@ let pages = [
         prices:true,
         links:[
           {
-            name:"Kit Placa Mãe + RAM + CPU",
-            price:187.41,
+            name:"Kit Placa Mãe + CPU",
+            price:195.08,
             desc:"Xeon E5 2630, 8GB Ram DDR4, SOYO X99 (Macro ATX)",
             link:"https://pt.aliexpress.com/item/1005009384292559.html",
           },
           {
+            name:"Memória RAM",
+            price:299,
+            desc:"8GB DDR4 2666Mhz",
+            link:"https://www.mercadolivre.com.br/memoria-para-computador-8gb-ddr4-2666-mhz-cl18/p/MLB2091494354"
+          },
+          {
             name:"Gabinete",
-            price:101.64,
+            price:95.51,
             desc:"240mm, ITX & Macro ATX",
             link:"https://pt.aliexpress.com/item/1005009731515671.html",
           },
           {
             name:"Memória de Armazenamento",
-            price:449.99,
-            desc:"SSD Sata 3 512GB 520MB/s",
-            link:"https://www.kabum.com.br/produto/626782/ssd-husky-512gb-sata-iii-2-5-leitura-520mb-s-gravacao-450mb-s-preto-hssd001512",
+            price:284.99,            desc:"SSD Sata 3 240GB 530MB/s",
+            link:"https://www.kabum.com.br/produto/105105/ssd-rise-mode-gamer-line-240gb-sata-iii-leitura-530mb-s-gravacao-520mb-s-preto-rm-ssd-240",
           },
           {// A definir
             name:"Placa de Vídeo",
-            price:690.54,
+            price:735.67,
             desc:"RX 580 8GB GDDR5",
             link:"https://pt.aliexpress.com/item/1005011923006626.html",
           },
           {
             name:"Fonte",
-            price:239.99,
+            price:289.99,
             desc:"650W (Bom para upgrades futuros), 120mm",
             link:"https://www.kabum.com.br/produto/907600/fonte-gigabyte-p650g-pg5-650w-80-plus-gold-pfc-ativo-preto-28200-p65g5-1cbrr",
           },
           {
             name:"Cooler CPU",
-            price:131.95,
+            price:128.90,
             desc:"Refrigera o processador =)",
             link:"https://www.mercadolivre.com.br/cooler-cpu-intel-xeon-e2xxx-x79x99-lga-2013111v2v3-90w-tdp/up/MLBU1417210982",
           },
           {
             name:"Fans Gabinete",
-            price:25.17,
+            price:30.80,
             desc:"(+/- Opcional)",
             link:"https://pt.aliexpress.com/item/1005007817096539.html",
           },
@@ -120,25 +125,25 @@ let pages = [
           {
             name:"Mouse",
             desc:"1600 DPI, 4 Botões, USB com fio",
-            price:49.00,
+            price:49.90,
             link:"https://www.mercadolivre.com.br/mouse-gamer-led-rgb-1600-dpi-4-botoes-gm95-com-fio-usb-preto/up/MLBU3685376500",
           },
           {
             name:"Teclado",
             desc:"Mecânico, Gamer, Philips Spk 8624 RGB",
-            price:253.07,
+            price:262.97,
             link:"https://www.mercadolivre.com.br/teclado-mecanico-gamer-philips-spk-8624-rgb-switch-teal/up/MLBU3904433141",
           },
           {
             name:"MousePad",
-            price:24.90,
+            price:14.99,
             desc:"",
             link:"https://www.mercadolivre.com.br/mousepad-gamer-speed-havit-pequeno-com-alta-qualidade-cor-preto/p/MLB19589151",
           },
           {
             name:"Monitor",
-            price:399.90,
-            desc:"FHD 75hz (por mais que seja 75.. recomendo usar ele como 60) 21.5\"",
+            price:529,
+            desc:"FHD 75hz 21.5\"",
             link:"https://www.mercadolivre.com.br/monitor-gamer-lg-22mp410-tela-va-de-215-fhd-1920x1080-75hz-5ms-gtg-hdmi-freesync/p/MLB19812882",
           },
         ]
