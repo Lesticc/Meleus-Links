@@ -93,9 +93,9 @@ let pages = [
           },
           {// A definir
             name:"Placa de Vídeo",
-            price:735.67,
+            price:582,
             desc:"RX 580 8GB GDDR5",
-            link:"https://pt.aliexpress.com/item/1005011923006626.html",
+            link:"https://df.olx.com.br/distrito-federal-e-regiao/informatica/placas-de-video/rx-580-de-8-gigas-1548637712",
           },
           {
             name:"Fonte",
